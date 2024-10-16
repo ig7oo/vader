@@ -15,7 +15,6 @@ function getText(code) {
 <template>
     <ul>
         <li>Date</li>
-       
         <li>Temp</li>
         <li>Precip</li>
         <li>Wind</li>
@@ -38,7 +37,7 @@ ul {
 }
 
 ul:nth-child(even) {
-    background-color: rgb(30, 163, 83);
+    background-color: #2b2828;
 }
 
 ul:nth-child(odd) {

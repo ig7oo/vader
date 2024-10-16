@@ -15,12 +15,14 @@ onMounted(() => {
         })
 })
 </script>
+
 <template>
     <h2>{{ location.name }}</h2>
     <p class="location">Lat: <span>{{ location.lat.toFixed(3) }}</span></p>
     <p class="location">Long: <span> {{ location.long.toFixed(3) }}</span></p>
     <ForecastResult :forecast="info" />
 </template>
+
 <style scoped>
 .location {
     display: inline-block;
